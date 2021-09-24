@@ -9,10 +9,6 @@ jobs:
         with:
           python-version: "3.6"
           architecture: "x64"
-      - name: Build docker
-        run: |
-          docker build -t bayesian_ml:1.0 .
-          docker run --rm -v ${PWD}:/home/jovyan/workspace -it --entrypoint bash bayesian_ml:1.0
       - name: Install the library
         run: |
           pip install nbdev jupyter
@@ -32,6 +28,3 @@ jobs:
       - name: Check if there is no diff library/notebooks
         run: |
           if [ -n "$(nbdev_diff_nbs)" ]; then echo -e "!!! Detected difference between the notebooks and the library"; false; fi
-      - name: Run tests
-        run: |
-          nbdev_test_nbs
