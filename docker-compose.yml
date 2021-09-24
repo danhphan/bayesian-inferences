@@ -1,6 +1,6 @@
 version: "3.2"
 services:
-  notebook:
+  notebook: 
     runtime: nvidia
     build:
       context: .
@@ -9,5 +9,7 @@ services:
       - "8888:8888"
     volumes:
       - ./:/home/jovyan/workspace
+
+
 
 
