@@ -6,8 +6,8 @@ index = {}
 
 modules = []
 
-doc_url = "https://danhphan.github.io/bayesian-inferences/"
+doc_url = "https://danhphan.github.io/bayesian_inferences/"
 
-git_url = "https://github.com/danhphan/bayesian-inferences/tree/master/"
+git_url = "https://github.com/danhphan/bayesian_inferences/tree/master/"
 
 def custom_doc_links(name): return None
