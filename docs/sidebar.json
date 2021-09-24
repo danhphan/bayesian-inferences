@@ -1,14 +1,20 @@
 {
-  "bayesian_inferences": {
+  "Basic Bayes": {
     "Overview": "/",
-    "core": "core.html",
-    "simple_bayesian_inference": "simple_bayesian_inference.html",
+    "Simple Bayesian Inference": "simple_bayesian_inference.html",
     "regression_models": "regression_models.html",
     "generalized_linear_models": "generalized_linear_models.html",
     "bayesian_logistic_regression": "bayesian_logistic_regression.html",
-    "bayesian_hacker_average_text_message_count": "bayesian_hacker_average_text_message_count.html",
-    "bayesian_hacker_AB_testing": "bayesian_hacker_AB_testing.html",
-    "mcmc_sampling_basic": "mcmc_sampling_basic.html",
-    "bayesian_deep_learning": "bayesian_deep_learning.html"
+  },
+  "Bayesian Hackers": {
+    "Text Message Count": "bayesian_hacker_average_text_message_count.html",
+    "AB testing": "bayesian_hacker_AB_testing.html",
+  },
+  "Sampling Methods": {
+    "Basic MCMC sampling": "mcmc_sampling_basic.html",
+  },
+  "Bayesian Deep Learning": {
+    "bayesian_deep_learning": "bayesian_deep_learning.html",
+    "AB testing": "bayesian_hacker_AB_testing.html",
   }
 }
