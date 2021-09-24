@@ -12,6 +12,7 @@ jobs:
       - name: Build docker
         run: |
           docker build -t bayesian_ml:1.0 .
+          docker run --rm -v ${PWD}:/home/jovyan/workspace -it --entrypoint bash bayesian_ml:1.0
       - name: Install the library
         run: |
           pip install nbdev jupyter
