@@ -148,3 +148,4 @@ checklink/cookies.txt
 .local/
 .theano/
 
+.wget-hsts
